@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: answers
+Version: 1.0.0.a1
+Summary: Library for automating command line processes and installers
+Home-page: https://github.com/calvinhartwell/answers
+Author: Calvin Hartwell
+Author-email: mail@calvinhartwell.com
+License: MIT
+Description: Answers
+        ==========================
+        
+        This library/project seeks to simplfy the installation of unix applications which typically require a list of questions to be answered or commands to be run. The idea is to provide a simple library which can run a script file against an executable, automating the entire process. 
+        
+        When combined with a configuration management tool, such as Puppet or Chef, this library should be very powerful. 
+Keywords: automate installer command line shell automation automatic
+Platform: UNKNOWN
+Classifier: Development Status ::3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Automation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
