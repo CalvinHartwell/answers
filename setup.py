@@ -11,8 +11,8 @@ with open(path.join(currentDirectory, 'DESCRIPTION.rst'), encoding='utf-8') as f
 
 setup (
 	name='answers', 
-
-	version='0.0.1.a1',
+	packages=['answers'],
+	version='0.0.3.a1',
 
 	description='Library for automating command line processes and installers',
 	long_description = long_description, 

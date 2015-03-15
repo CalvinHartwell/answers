@@ -1,5 +1,9 @@
+DESCRIPTION.rst
+MANIFEST.in
 README.rst
 setup.py
+answers/__init__.py
+answers/answers.py
 answers.egg-info/PKG-INFO
 answers.egg-info/SOURCES.txt
 answers.egg-info/dependency_links.txt
