@@ -6,3 +6,9 @@
 #=======================================================================
 
 from answers import *
+
+ShellCommand = Answers("uname -a")
+ShellCommand.debugMode = True
+ShellCommand.logMode = True
+ShellCommand.timeoutInSeconds = 1
+ShellCommand.Execute()

@@ -1,3 +1,10 @@
+#=======================================================================
+# Answers Python Library. 
+# Copyright Calvin Hartwell 2015. 
+# Distributed under the MIT License.
+# (See accompanying file LICENSE or copy at http://opensource.org/licenses/MIT)
+#=======================================================================
+
 import subprocess 	# Used for for running subprocesses (shell execution) and reading output
 import json 		# Used for reading JSON (answers files)
 import os			# Used for working with files/loading answers file
@@ -15,7 +22,7 @@ class Answers(object):
 		self.defaultAnswer = "y"
 		self.postAnswerCommand = "\r"
 		self.logName = "answers.log"
-		self.timeoutInSeconds = 25
+		self.timeoutInSeconds = 1
 		self.maxReadWriteSize = 2048
 		self.debugMode = False 
 		self.logMode = False
@@ -30,7 +37,7 @@ class Answers(object):
 			answersFile = open(self._answersRaw)
 			self._answers = json.load(answersFile)
 		else: # Try to load it as raw JSON
-			self._answers = json.load(self._answersRaw)	
+			self._answers = json.loads(self._answersRaw)	
 		
 		self._DebugPrint ("Answers Loaded: %s" % self._answers)
 

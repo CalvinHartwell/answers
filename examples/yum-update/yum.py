@@ -6,3 +6,9 @@
 #=======================================================================
 
 from answers import *
+						# Automatically answer yes to install any packages, the same as sudo yum -y update
+ShellCommand = Answers("sudo yum update", '{"answers": [ {"question":"Is this ok [y/d/N]", "answer":"y"}] }')
+ShellCommand.debugMode = True
+ShellCommand.logMode = True
+ShellCommand.timeoutInSeconds = 1
+ShellCommand.Execute()

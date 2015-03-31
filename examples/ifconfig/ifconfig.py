@@ -6,3 +6,9 @@
 #=======================================================================
 
 from answers import *
+
+ShellCommand = Answers("ifconfig")
+ShellCommand.debugMode = True
+ShellCommand.logMode = True
+ShellCommand.timeoutInSeconds = 1
+ShellCommand.Execute()

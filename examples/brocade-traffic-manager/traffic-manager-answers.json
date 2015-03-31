@@ -1,0 +1,56 @@
+{
+		"answers": 
+	[
+		{ 
+			"question": "Enter `accept' to accept this license, or press return to abort:", 
+			"answer": "accept"
+		},
+		{ 
+			"question": "Where should the product be installed? [/usr/local/zeus]:", 
+			"answer": "/usr/local/zeus"
+		},
+		{ "question": "Are you ready to perform the initial configuration now ? (Y/N) [Y]:", 
+			"answer": "y"
+		},
+		{ 
+			"question": "Choose option [1]:", 
+			"answer": "1"
+		},
+		{ 
+			"question": "Enter the license key filename, or leave blank for developer mode:", 
+			"answer": ""
+		},
+		{ 
+			"question": "Do you wish to use it? Y/N [N]:", 
+			"answer": "y"
+		},
+		{ 
+			"question": "Choose a UNIX user for the zxtm process to run as [nobody]:", 
+			"answer": "lbalancer"
+		},
+		{ 
+			"question": "Choose a UNIX group for the zxtm process to run as [nobody]:", 
+			"answer": "lbalancer"
+		},
+		{ 
+			"question": "Would you like to restrict Stingray Traffic Manager management to one IP? Y/N [N]:", 
+			"answer": "n"
+		},
+		{ 
+			"question": "Would you like Stingray Traffic Manager to start at boot time? Y/N [Y]:", 
+			"answer": "y"
+		},
+		{ 
+			"question": "Select option [C]:", 
+			"answer": "c"
+		},
+		{ 
+			"question": "Please choose a password for the admin server:", 
+			"answer": "change_me"
+		},
+		{ 
+			"question": "Re-enter", 
+			"answer": "change_me"
+		}
+	]
+}
