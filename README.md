@@ -77,5 +77,6 @@ The questions should be within the answers array, and each question should have 
 To execute a process with the answers file loaded, use the following: 
 
 	AutomatedInstaller = Answers('/path/to/executable', '/path/to/answers.json')
+	AutomatedInstaller.Execute()
 
 For a worked example of this, see the Brocade Traffic Manager installer script within the examples folder. 

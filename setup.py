@@ -19,7 +19,7 @@ with open(path.join(currentDirectory, 'DESCRIPTION.rst'), encoding='utf-8') as f
 setup (
 	name='answers', 
 	packages=['answers'],
-	version='0.0.3.a1',
+	version='0.0.4',
 
 	description='Library for automating command line processes and installers',
 	long_description = long_description, 
@@ -30,7 +30,7 @@ setup (
 
 	license='MIT', # Please do whatever you want with this library
 
-	classifiers=['Development Status :: 3 - Alpha',
+	classifiers=['Development Status :: 5 - Production/Stable',
 				'Intended Audience :: Developers', 
 				'Topic :: System :: Installation/Setup',
 				'License :: OSI Approved :: MIT License', 
